@@ -11,6 +11,10 @@ def index(request):
     print(r.text)
     return HttpResponse('<pre>' + "Hello World" + '</pre>')
 
+# def index(request):
+#     # return HttpResponse('Hello from Python!')
+#     return render(request, "index.html")
+
 
 def db(request):
 
